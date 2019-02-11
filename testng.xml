@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+
+<test name="LoginClass ">
+    <classes>
+        <class name="selenium.LoginClass1" ></class>  
+    </classes>
+</test>
+
+<test name="DataDriven1 ">
+    <classes>
+        <class name="selenium.NaukriSearch" ></class>  
+    </classes>
+</test>
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Sample Suite]">
+  <test name="LoginClass (failed)">
+    <classes>
+      <class name="selenium.LoginClass1$LoginClass">
+        <methods>
+          <include name="BaseTestB"/>
+          <include name="Test_Naukri_Search"/>
+          <include name="Test_Exp_list_Count"/>
+          <include name="BaseTestA"/>
+        </methods>
+      </class> <!-- selenium.LoginClass1$LoginClass -->
+    </classes>
+  </test> <!-- LoginClass (failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->
